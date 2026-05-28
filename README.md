@@ -1,2 +1,3 @@
 # terraform-aws-production-infrastructure
 Production-grade AWS infrastructure platform built with Terraform using a highly available multi-AZ architecture. The project implements secure public/private subnet segmentation, Application Load Balancer (ALB), Auto Scaling Group (ASG), NAT Gateways, IAM roles, Terraform remote backend with S3 and DynamoDB state locking, and CI/CD automation using GitHub Actions with a self-hosted runner for infrastructure deployment.
+ter
