@@ -40,18 +40,18 @@ variable "environment" {
 
 variable "min_size" {
   type        = number
-  default     = 4
+  default     = 2
   description = "Minimum number of instances in the Auto Scaling group"
 }
 
 variable "max_size" {
   type        = number
-  default     = 4
+  default     = 2
   description = "Maximum number of instances in the Auto Scaling group"
 }
 
 variable "desired_capacity" {
   type        = number
-  default     = 4
+  default     = 2
   description = "Desired number of instances in the Auto Scaling group"
 }
